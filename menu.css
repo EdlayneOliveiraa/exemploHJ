@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+}
+#menu-h{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    background-color: black;
+}
+#menu-h li{
+    display: inline;
+}
+#menu-h ul li{
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background.4s;
+}
+#menu-h ul li{
+    background-color: rgb(80,100,200);
+}
+#menu-h ul li:last-child a{
+    float: right;
+    background-color: rgb(24, 132, 232);
+
+}

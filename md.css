@@ -1,0 +1,14 @@
+@media(max-width: 600px)
+{
+    .text{
+        font-size: 17px;
+        color: brown;
+    }
+
+}
+@media(min-width: 500px)
+{
+    div{
+        background: blue;
+    }
+}
